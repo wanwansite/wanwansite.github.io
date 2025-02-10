@@ -34,7 +34,17 @@
 </div>
 
 <style>
-  /* Adicionando a cor de fundo cinza atrás das imagens e texto */
+  /* Fundo cinza escuro cobrindo toda a página */
+  body {
+    background-color: #333;  /* Cor de fundo cinza escuro */
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* Faz com que o fundo cubra toda a altura da página */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Adicionando a cor de fundo cinza claro atrás das imagens e texto */
   .card-body {
     background-color: #f4f4f4;  /* Cor de fundo cinza claro */
     padding: 20px;
@@ -54,6 +64,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;  /* Adiciona espaçamento entre as colunas */
+    margin: 0;  /* Remove margens extras */
+    padding: 20px;  /* Adiciona algum preenchimento em torno dos cartões */
+    flex: 1;  /* Garante que a área de conteúdo ocupe o restante do espaço */
   }
 
   /* Definir número de colunas por linha */
