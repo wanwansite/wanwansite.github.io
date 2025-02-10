@@ -4,44 +4,45 @@
   let produtosFiltrados = produtosAcademia.slice();
 </script>
 
-<!-- Exibição dos produtos -->
-<div class="row g-4">
-  {#each produtosFiltrados as produto}
-    <div class="col-md-6 col-xl-3">
-      <div class="card h-100">
-        <div class="row g-0">
-          <div class="col-12">
-            <img src={produto.imagem} class="img-fluid rounded-start produto-imagem" alt="imagem do produto" />
-          </div>
-          <div class="col-sm-8">
-            <div class="card-body">
-              <h5 class="card-title">{produto.nome}</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Preço: {produto.preço}</h6>
-              {#if produto.validade}
-                <p class="card-text">Validade: {produto.validade}</p>
-              {/if}
-              <p class="card-text categorias">
-                {#each produto.categorias as categoria}
-                  <span class="badge text-bg-secondary mx-1">{categoria}</span>
-                {/each}
-              </p>
+<!-- Contêiner principal com fundo cinza escuro -->
+<div class="main-container">
+  <!-- Exibição dos produtos -->
+  <div class="row g-4">
+    {#each produtosFiltrados as produto}
+      <div class="col-md-6 col-xl-3">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-12">
+              <img src={produto.imagem} class="img-fluid rounded-start produto-imagem" alt="imagem do produto" />
+            </div>
+            <div class="col-sm-8">
+              <div class="card-body">
+                <h5 class="card-title">{produto.nome}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Preço: {produto.preço}</h6>
+                {#if produto.validade}
+                  <p class="card-text">Validade: {produto.validade}</p>
+                {/if}
+                <p class="card-text categorias">
+                  {#each produto.categorias as categoria}
+                    <span class="badge text-bg-secondary mx-1">{categoria}</span>
+                  {/each}
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  {/each}
+    {/each}
+  </div>
 </div>
 
 <style>
-  /* Fundo cinza escuro cobrindo toda a página */
-  body {
+  /* Aplicando o fundo cinza escuro no contêiner principal */
+  .main-container {
     background-color: #333;  /* Cor de fundo cinza escuro */
     margin: 0;
-    padding: 0;
-    height: 100vh;  /* Faz com que o fundo cubra toda a altura da página */
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
+    height: 100vh;  /* Garante que o fundo cubra toda a altura da página */
   }
 
   /* Adicionando a cor de fundo cinza claro atrás das imagens e texto */
@@ -65,8 +66,6 @@
     flex-wrap: wrap;
     gap: 20px;  /* Adiciona espaçamento entre as colunas */
     margin: 0;  /* Remove margens extras */
-    padding: 20px;  /* Adiciona algum preenchimento em torno dos cartões */
-    flex: 1;  /* Garante que a área de conteúdo ocupe o restante do espaço */
   }
 
   /* Definir número de colunas por linha */
