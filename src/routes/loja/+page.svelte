@@ -1,45 +1,10 @@
 <script>
   import { produtosAcademia } from '$lib/produtos.js';
 
-  let produtosFiltrados = $state(produtosAcademia.slice());
-  let categoriasSelecionadas = $state([]);
-
-  // Função de filtro de categorias
-  function filtrarCategorias(event) {
-    if (event.target.checked) {
-      categoriasSelecionadas.push(event.target.value);
-    } else {
-      categoriasSelecionadas.splice(categoriasSelecionadas.indexOf(event.target.value), 1);
-    }
-
-    if (categoriasSelecionadas.length == 0) {
-      produtosFiltrados = produtosAcademia.slice();
-    } else {
-      produtosFiltrados = [];
-      for (const produto of produtosAcademia) {
-        for (const categoria of categoriasSelecionadas) {
-          if (produto.categorias && produto.categorias.includes(categoria)) {
-            produtosFiltrados.push(produto);
-            break;
-          }
-        }
-      }
-    }
-  }
+  let produtosFiltrados = produtosAcademia.slice();
 </script>
 
-<div class="row align-items-center mb-3">
-  <div class="col-md-4"><input class="form-control" placeholder="Filtrar..." /></div>
-  {#each ["Suplementos", "Acessórios", "Vestuário"] as categoria}
-    <div class="col">
-      <div class="form-check form-check-inline">
-        <input type="checkbox" oninput={filtrarCategorias} class="form-check-input" id={categoria} value={categoria} />
-        <label class="form-check-label" for={categoria}>{categoria}</label>
-      </div>
-    </div>
-  {/each}
-</div>
-
+<!-- Exibição dos produtos -->
 <div class="row g-4">
   {#each produtosFiltrados as produto}
     <div class="col-md-6 col-xl-3">
@@ -69,7 +34,13 @@
 </div>
 
 <style>
-  /* Garantir que as imagens de produto fiquem do mesmo tamanho */
+  /* Adicionando a cor de fundo cinza atrás das imagens e texto */
+  .card-body {
+    background-color: #f4f4f4;  /* Cor de fundo cinza claro */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
   .produto-imagem {
     max-width: 100%;        /* A imagem ocupa 100% da largura disponível */
     height: auto;           /* Mantém a proporção da imagem */
@@ -102,19 +73,35 @@
     }
   }
 
-  /* Estilizando o texto abaixo das imagens */
+  /* Estilizando o título e o texto abaixo das imagens */
+  .card-title {
+    font-family: 'Poppins', sans-serif; /* Fonte mais moderna e legível */
+    font-size: 1.25rem;  /* Tamanho de fonte ajustado */
+    font-weight: 600;    /* Deixa o título mais forte */
+  }
+
+  .card-subtitle {
+    font-family: 'Roboto', sans-serif; /* Fonte clean e legível */
+    font-size: 1rem;   /* Tamanho de fonte ajustado */
+    color: #666;       /* Cor de texto secundário */
+  }
+
   .card-text {
-    font-size: 16px;
-    font-family: 'Arial', sans-serif; /* Fonte mais moderna */
-    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e clean */
+    color: #333;
   }
 
   .categorias {
     font-size: 14px;
+    margin-top: 10px;
   }
 
   /* Ajustando a aparência dos badges de categorias */
   .badge {
     font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0; /* Cor de fundo dos badges */
+    color: #333;  /* Cor do texto dos badges */
   }
 </style>
