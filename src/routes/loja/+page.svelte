@@ -39,7 +39,7 @@
 <style>
   /* Aplicando o fundo cinza escuro no contêiner principal */
   .main-container {
-    background-color: #333;  /* Cor de fundo cinza escuro */
+    background-color: #ffffff;  /* Cor de fundo cinza escuro */
     margin: 0;
     padding: 20px;
     height: 100vh;  /* Garante que o fundo cubra toda a altura da página */
