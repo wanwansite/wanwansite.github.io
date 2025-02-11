@@ -1,6 +1,6 @@
 <script>
     function irParaLoja() {
-        window.location.href = "https://wanwansite.github.io/loja";
+        window.location.href = "/loja";
     }
 
     function irParaFrases() {
