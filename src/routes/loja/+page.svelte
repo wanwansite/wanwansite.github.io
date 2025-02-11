@@ -13,10 +13,9 @@
 </script>
 
 <div class="main-container">
-  <div class="d-flex justify-content-between">
-    <button class="btn btn-dark" on:click={voltar}>Voltar</button>
-    <button class="btn btn-dark" on:click={irParaFrases}>Frases</button>
-  </div>
+  <!-- Botões fixos no topo -->
+  <button class="btn btn-dark voltar-btn" on:click={voltar}>Voltar</button>
+  <button class="btn btn-dark frases-btn" on:click={irParaFrases}>Frases</button>
 
   <div class="row g-4 mt-4">
     {#each produtosFiltrados as produto}
@@ -55,6 +54,7 @@
     margin: 0;
     padding: 20px;
     height: 100vh;
+    position: relative; /* Necessário para posicionar os botões corretamente */
   }
 
   .card-body {
@@ -127,5 +127,41 @@
   .btn-link {
     padding: 0;
     text-decoration: none;
+  }
+
+  /* Botões fixos */
+  .voltar-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .frases-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Efeito de hover para os botões */
+  .voltar-btn:hover, .frases-btn:hover {
+    background-color: #f0f0f0;
   }
 </style>
