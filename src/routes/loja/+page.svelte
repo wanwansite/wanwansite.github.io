@@ -2,12 +2,23 @@
   import { produtosAcademia } from '$lib/produtos.js';
 
   let produtosFiltrados = produtosAcademia.slice();
+
+  function voltar() {
+    window.location.href = "https://wanwansite.github.io/#";
+  }
+
+  function irParaFrases() {
+    window.location.href = "https://wanwansite.github.io/frases";
+  }
 </script>
 
-<!-- Contêiner principal com fundo cinza escuro -->
 <div class="main-container">
-  <!-- Exibição dos produtos -->
-  <div class="row g-4">
+  <div class="d-flex justify-content-between">
+    <button class="btn btn-dark" on:click={voltar}>Voltar</button>
+    <button class="btn btn-dark" on:click={irParaFrases}>Frases</button>
+  </div>
+
+  <div class="row g-4 mt-4">
     {#each produtosFiltrados as produto}
       <div class="col-md-6 col-xl-3">
         <div class="card h-100">
@@ -37,70 +48,65 @@
 </div>
 
 <style>
-  /* Aplicando o fundo cinza escuro no contêiner principal */
   .main-container {
-    background-color: #ffffff;  /* Cor de fundo cinza escuro */
+    background-color: #ffffff;
     margin: 0;
     padding: 20px;
-    height: 100vh;  /* Garante que o fundo cubra toda a altura da página */
+    height: 100vh;
   }
 
-  /* Adicionando a cor de fundo cinza claro atrás das imagens e texto */
   .card-body {
-    background-color: #f4f4f4;  /* Cor de fundo cinza claro */
+    background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
   }
 
   .produto-imagem {
-    max-width: 100%;        /* A imagem ocupa 100% da largura disponível */
-    height: auto;           /* Mantém a proporção da imagem */
-    object-fit: cover;      /* Faz com que a imagem cubra o espaço disponível sem distorcer */
-    max-height: 250px;      /* Define a altura máxima das imagens */
-    margin-bottom: 15px;    /* Espaço entre as imagens */
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 250px;
+    margin-bottom: 15px;
   }
 
-  /* Layout para as imagens e cartões */
   .row.g-4 {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;  /* Adiciona espaçamento entre as colunas */
-    margin: 0;  /* Remove margens extras */
+    gap: 20px;
+    margin: 0;
   }
 
-  /* Definir número de colunas por linha */
   .col-md-6 {
-    flex: 1 1 calc(25% - 20px); /* Define as colunas em 4 por linha (25% da largura) */
+    flex: 1 1 calc(25% - 20px);
   }
 
   @media (max-width: 768px) {
     .col-md-6 {
-      flex: 1 1 calc(50% - 20px); /* Duas colunas em telas menores */
+      flex: 1 1 calc(50% - 20px);
     }
   }
 
   @media (max-width: 576px) {
     .col-md-6 {
-      flex: 1 1 calc(100% - 20px); /* Uma coluna por vez em telas ainda menores */
+      flex: 1 1 calc(100% - 20px);
     }
   }
 
-  /* Estilizando o título e o texto abaixo das imagens */
   .card-title {
-    font-family: 'Poppins', sans-serif; /* Fonte mais moderna e legível */
-    font-size: 1.25rem;  /* Tamanho de fonte ajustado */
-    font-weight: 600;    /* Deixa o título mais forte */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
   }
 
   .card-subtitle {
-    font-family: 'Roboto', sans-serif; /* Fonte clean e legível */
-    font-size: 1rem;   /* Tamanho de fonte ajustado */
-    color: #666;       /* Cor de texto secundário */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #666;
   }
 
   .card-text {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif; /* Fonte moderna e clean */
+    font-family: 'Roboto', sans-serif;
     color: #333;
   }
 
@@ -109,11 +115,10 @@
     margin-top: 10px;
   }
 
-  /* Ajustando a aparência dos badges de categorias */
   .badge {
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    background-color: #e0e0e0; /* Cor de fundo dos badges */
-    color: #333;  /* Cor do texto dos badges */
+    background-color: #e0e0e0;
+    color: #333;
   }
 </style>
