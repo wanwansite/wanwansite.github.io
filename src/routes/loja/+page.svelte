@@ -38,7 +38,7 @@
                     <span class="badge text-bg-secondary mx-1">{categoria}</span>
                   {/each}
                 </p>
-                <!-- Botão de link -->
+                
                 <a href={produto.referência} target="_blank" class="btn btn-link">Ver na loja</a>
               </div>
             </div>
