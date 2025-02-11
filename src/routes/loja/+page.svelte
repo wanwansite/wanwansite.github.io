@@ -38,6 +38,8 @@
                     <span class="badge text-bg-secondary mx-1">{categoria}</span>
                   {/each}
                 </p>
+                <!-- Botão de link -->
+                <a href={produto.referência} target="_blank" class="btn btn-link">Ver na loja</a>
               </div>
             </div>
           </div>
@@ -120,5 +122,10 @@
     font-family: 'Roboto', sans-serif;
     background-color: #e0e0e0;
     color: #333;
+  }
+
+  .btn-link {
+    padding: 0;
+    text-decoration: none;
   }
 </style>
