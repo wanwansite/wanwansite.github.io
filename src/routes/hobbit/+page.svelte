@@ -110,7 +110,7 @@
   <a href="https://wanwansite.github.io/">Home</a>
 
   <!-- Botão Anéis -->
-  <a href="https://wanwansite.github.io/senhor-dos-aneis">Anéis</a>
+  <a href="https://wanwansite.github.io/senhor">Anéis</a>
 </div>
 
 <div class="container">
