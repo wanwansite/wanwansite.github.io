@@ -13,10 +13,10 @@
           <ul class="navbar-nav">
      
             <li class="nav-item">
-              <a class="nav-link" href="/loja">Loja</a>
+              <a class="nav-link" href="/filme1">Senhor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/frases">ajuda</a>
+              <a class="nav-link" href="/filme2">Hobbit</a>
             </li>
           </ul>
         </div>
