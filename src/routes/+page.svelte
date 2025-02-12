@@ -26,7 +26,7 @@
     }
   
     .logo {
-      position: absolute; /* A imagem será posicionada acima do fundo */
+      position: absolute; 
       top: 50%; /* Centraliza verticalmente */
       left: 50%; /* Centraliza horizontalmente */
       transform: translate(-50%, -50%); /* Ajuste fino para centralizar */
