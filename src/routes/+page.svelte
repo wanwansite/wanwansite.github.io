@@ -61,5 +61,5 @@
   </div>
   
   <div class="logo">
-    <img src="/Design sem nome.png" class="img-fluid" alt="Logo">
+    <img src="/favicon.png" class="img-fluid" alt="Logo">
   </div>
