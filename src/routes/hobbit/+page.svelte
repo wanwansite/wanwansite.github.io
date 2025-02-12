@@ -77,7 +77,41 @@
     color: #ecf0f1;
     text-align: justify;
   }
+
+  /* Estilos para os botões fixos */
+  .button-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+    z-index: 2;
+  }
+
+  .button-container a {
+    background-color: #f1c40f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .button-container a:hover {
+    background-color: #e67e22;
+  }
 </style>
+
+<!-- Botões fixos no topo -->
+<div class="button-container">
+  <!-- Botão Home -->
+  <a href="https://wanwansite.github.io/">Home</a>
+
+  <!-- Botão Anéis -->
+  <a href="https://wanwansite.github.io/senhor-dos-aneis">Anéis</a>
+</div>
 
 <div class="container">
   <h1 class="titulo">O Hobbit</h1>
@@ -131,11 +165,10 @@
       <h3>Bard, o Arqueiro</h3>
       <p>Bard é um arqueiro habilidoso de Lake-town (Esgaroth). Ele se torna um herói ao matar Smaug com uma flecha certeira, salvando a cidade e ajudando os povos da Terra-média a resistir à ameaça do dragão.</p>
     </div>
-
   </div>
 
   <div class="descricao">
     <h2>A Jornada de Bilbo Baggins</h2>
     <p>A história de O Hobbit segue a jornada de Bilbo Baggins/Bolseiro, um hobbit comum que é escolhido para se juntar a uma companhia de anões e ao mago Gandalf em uma missão para recuperar um tesouro guardado pelo dragão Smaug. Ao longo dessa jornada, Bilbo enfrenta desafios perigosos e aprende muito sobre coragem, lealdade e amizade. A busca por esse tesouro acaba se tornando muito mais do que o simples enriquecimento material – ela é uma luta pela liberdade e pela justiça contra forças que ameaçam a Terra-média.</p>
-  </div>
-  </div>
+  </div>
+</div>
