@@ -1,5 +1,5 @@
 <script>
-  // Lógica de script aqui, se necessário
+  
 </script>
 
 <style>
@@ -7,7 +7,7 @@
     margin: 0;
     font-family: 'Arial', sans-serif;
     height: 100%;
-    background-color: rgb(34, 139, 34); /* Cor verde RGB */
+    background-color: rgb(34, 139, 34); 
     position: relative;
     z-index: -1;
   }
@@ -75,7 +75,7 @@
     text-align: justify;
   }
 
-  /* Botões Home e Hobbit no topo */
+ 
   .button-container {
     position: absolute;
     top: 10px;
@@ -102,10 +102,10 @@
 </style>
 
 <div class="button-container">
-  <!-- Botão Home -->
+ 
   <a href="https://wanwansite.github.io/">Home</a>
 
-  <!-- Botão Hobbit -->
+ 
   <a href="https://wanwansite.github.io/hobbit">Hobbit</a>
 </div>
 
@@ -113,7 +113,7 @@
   <h1 class="titulo">Senhor Dos Anéis</h1>
 
   <div class="personagens">
-    <!-- Cards dos personagens -->
+    
     <div class="card">
       <img src="https://pm1.aminoapps.com/6308/61e613bfde1b95f18e14afda9fa97215cd2ee6e4_00.jpg" alt="Frodo" />
       <h3>Frodo Bolseiro</h3>

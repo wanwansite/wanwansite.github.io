@@ -1,5 +1,5 @@
 <script>
-  // Lógica de script aqui, se necessário
+
 </script>
 
 <style>
@@ -37,25 +37,25 @@
     display: inline-block;
     margin-top: 20px;
     padding: 15px 30px;
-    background-color: #4CAF50; /* Cor personalizada para o botão */
+    background-color: #4CAF50;
     color: white;
-    font-size: 1.2rem; /* Tamanho de fonte maior */
+    font-size: 1.2rem; 
     font-weight: bold;
-    text-transform: uppercase; /* Maiúsculas no texto */
+    text-transform: uppercase; 
     border: none;
-    border-radius: 30px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    border-radius: 30px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     text-decoration: none;
     transition: all 0.3s ease;
   }
 
   .botao:hover {
-    background-color: #45a049; /* Cor do botão ao passar o mouse */
-    transform: translateY(-5px); /* Leve efeito de "elevar" ao passar o mouse */
+    background-color: #45a049; 
+    transform: translateY(-5px); 
   }
 
   .botao:active {
-    transform: translateY(2px); /* Efeito de pressionamento */
+    transform: translateY(2px);
   }
 </style>
 
