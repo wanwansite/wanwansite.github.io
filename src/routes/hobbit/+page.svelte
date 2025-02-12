@@ -80,7 +80,7 @@
 </style>
 
 <div class="container">
-  <h1 class="titulo">Os Heróis de O Hobbit</h1>
+  <h1 class="titulo">O Hobbit</h1>
 
   <div class="personagens">
     <!-- Card do Bilbo -->
