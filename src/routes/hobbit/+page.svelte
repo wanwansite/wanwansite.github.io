@@ -86,15 +86,15 @@
     <!-- Card do Bilbo -->
     <div class="card">
       <img src="https://ufmg.br/thumbor/0k4CbZ2F7V807pwjDMX2cxCnkWc=/0x0:1505x1003/712x474/https://ufmg.br/storage/a/7/c/b/a7cb5c6e5760c5ce1590752e9ac5ae41_15077319251864_980465810.jpg" alt="Bilbo Baggins" />
-      <h3>Bilbo Baggins</h3>
-      <p>Bilbo é um hobbit que se vê envolvido em uma grande aventura com anões e Gandalf para recuperar um tesouro guardado por um dragão. Apesar de ser inicialmente relutante, Bilbo prova ser um herói em sua jornada.</p>
+      <h3>Bilbo Baggins/Bolseiro</h3>
+      <p>Bilbo é um hobbit que se vê envolvido em uma grande aventura com anões e Gandalf para recuperar um tesouro guardado por um dragão. Apesar de ser inicialmente relutante, Bilbo prova ser um herói em sua jornada e o anél do poder.</p>
     </div>
 
-    <!-- Card do Gandalf -->
+    <!-- Card da Senhora Galadriel -->
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Gandalf_%28Ian_McKellen%29_%28The_Hobbit%29.jpg" alt="Gandalf" />
-      <h3>Gandalf, o Cinzento</h3>
-      <p>Gandalf é um mago que ajuda Bilbo e os anões em sua jornada para recuperar o tesouro do dragão Smaug. Ele é sábio e poderoso, com grande influência nas decisões que moldam o destino da Terra-média.</p>
+      <img src="https://multiversonoticias.com.br/wp-content/uploads/2023/11/galadriel-senhor-dos-aneis-olhar.png" alt="Gandalf" />
+      <h3>Senhora Galadriel</h3>
+      <p>Galadriel, uma elfa super poderosa que está presente nas duas triologias, ela é maravilhosamente linda encanta a todos, mas também ela dá um medinho.</p>
     </div>
 
     <!-- Card do Thorin -->
@@ -104,30 +104,30 @@
       <p>Thorin é o líder dos anões que embarcam na jornada para recuperar a Montanha Solitária e o tesouro roubado pelo dragão Smaug. Seu senso de honra e coragem o tornam um líder imponente, embora sua ganância também seja um grande obstáculo.</p>
     </div>
 
-    <!-- Card do Legolas -->
+    <!-- Card do Gollum  -->
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Legolas_%28Orlando_Bloom%29_%28The_Hobbit%29.jpg" alt="Legolas" />
-      <h3>Legolas</h3>
-      <p>Legolas é um elfo da Floresta das Trevas e amigo leal de Thorin. Ele é um arqueiro excepcional e combate com grande destreza, sempre pronto para lutar ao lado de seus amigos na jornada.</p>
+      <img src="https://br.web.img3.acsta.net/c_300_300/img/68/61/68617d596b1868ea8b4b165848059e49.jpg" alt="Legolas" />
+      <h3>Gollum</h3>
+      <p>Gollum foi um ex-Hobbit, que após encontar o anel em um lago em seu aniversário e matar seu melhor amigo por ele, ficou maluco, e embora ele tenha criado uma bipolaridade, Gollum foi importante em toda triologia Hobbit e Senhor dos Anéis.</p>
     </div>
 
     <!-- Card do Fili -->
     <div class="card">
-      <img src="00https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_dHN1W8e9EXVYMBRMgfzg_hZr1N30yyRfhw&s" alt="Fili" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_dHN1W8e9EXVYMBRMgfzg_hZr1N30yyRfhw&s" alt="Fili" />
       <h3>Fili</h3>
-      <p>Fili é um dos anões da companhia de Thorin e um guerreiro corajoso. Ele é irmão de Kili e tem um forte senso de lealdade, sendo um dos principais lutadores na missão para derrotar Smaug.</p>
+      <p>Fili é um dos anões da companhia de Thorin e um guerreiro corajoso. Ele é irmão de Kili e tem um forte senso de lealdade e é muito mais pé no chão do que o irmão, talvez porque ele fosse o primeiro na linha de sucessão depois de Thorin, sendo um dos principais lutadores na missão para derrotar Smaug.(e com certeza ele é o meu favorito entre os irmãos)</p>
     </div>
 
     <!-- Card do Kili -->
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Kili_%28The_Hobbit%29.jpg" alt="Kili" />
+      <img src="https://i.pinimg.com/474x/13/e5/1b/13e51b7b75539506024e48c8668ad576.jpg" alt="Kili" />
       <h3>Kili</h3>
-      <p>Kili é o irmão de Fili e um dos anões aventureiros que se juntam à missão para recuperar a Montanha Solitária. Ele é jovem, mas destemido e habilidoso com o arco e flecha, além de ser leal à sua companhia.</p>
+      <p>Kili é o irmão de Fili e um dos anões aventureiros que se juntam à missão para recuperar a Montanha Solitária. Ele é jovem, mas destemido e habilidoso com o arco e flecha, também se apaixonou por uma elfa, que no começo não dava muita bola para ele, porém depois no último filme ele acaba morrendo para proteger sua amada.</p>
     </div>
 
     <!-- Card do Bard -->
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Bard_the_Bowman_%28Luke_Evans%29.jpg" alt="Bard" />
+      <img src="https://preview.redd.it/1qlkz6mqcwpa1.jpg?auto=webp&s=2f1140b9fba196e472805d90cfb10d67918c0ae8" alt="Bard" />
       <h3>Bard, o Arqueiro</h3>
       <p>Bard é um arqueiro habilidoso de Lake-town (Esgaroth). Ele se torna um herói ao matar Smaug com uma flecha certeira, salvando a cidade e ajudando os povos da Terra-média a resistir à ameaça do dragão.</p>
     </div>
@@ -136,6 +136,6 @@
 
   <div class="descricao">
     <h2>A Jornada de Bilbo Baggins</h2>
-    <p>A história de O Hobbit segue a jornada de Bilbo Baggins, um hobbit comum que é escolhido para se juntar a uma companhia de anões e ao mago Gandalf em uma missão para recuperar um tesouro guardado pelo dragão Smaug. Ao longo dessa jornada, Bilbo enfrenta desafios perigosos e aprende muito sobre coragem, lealdade e amizade. A busca por esse tesouro acaba se tornando muito mais do que o simples enriquecimento material – ela é uma luta pela liberdade e pela justiça contra forças que ameaçam a Terra-média.</p>
+    <p>A história de O Hobbit segue a jornada de Bilbo Baggins/Bolseiro, um hobbit comum que é escolhido para se juntar a uma companhia de anões e ao mago Gandalf em uma missão para recuperar um tesouro guardado pelo dragão Smaug. Ao longo dessa jornada, Bilbo enfrenta desafios perigosos e aprende muito sobre coragem, lealdade e amizade. A busca por esse tesouro acaba se tornando muito mais do que o simples enriquecimento material – ela é uma luta pela liberdade e pela justiça contra forças que ameaçam a Terra-média.</p>
   </div>
   </div>
